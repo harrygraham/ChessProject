@@ -1,0 +1,17 @@
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\bin\Release\test_chess.exe.config
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\bin\Release\test_chess.exe
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\bin\Release\test_chess.pdb
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.AddQuestion.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.AdminLogin.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.AdminPage.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.AskQuestion.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.BoardUI.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.DeleteQuestion.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.EditQuestion.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.MainMenu.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.PromotePawn.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.Properties.Resources.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.ViewQuestions.resources
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\Comp4_Chess.csproj.GenerateResource.Cache
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.exe
+\\psf\Home\Documents\A2 computing\COMP4\Project Versions\chessGame (24) - general\test_chess\obj\Release\test_chess.pdb

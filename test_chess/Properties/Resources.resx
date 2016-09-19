@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DarkRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NotNetworkedButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NotNetworkedButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkBrown_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkBrown_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightPurple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RookButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RookButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdminButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdminButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainBlueStyleButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainBlueStyleButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StationaryTexture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StationaryTexture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_klt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_klt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkPurple_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkPurple_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_pdt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_pdt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodStyleButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WoodStyleButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodStyleButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WoodStyleButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StandardButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StandardButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PromoteButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PromoteButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightBlue_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightBlue_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainRedStyleButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainRedStyleButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MathsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathsButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SqrtButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SqrtButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightBrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightBrown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarbleStyleButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarbleStyleButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteMarble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteMarble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KnightButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KnightButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditQuestionsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditQuestionsButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkBrown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkBrown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightWoodSquare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightWoodSquare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkBlue_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkBlue_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkPurple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NetworkedButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NetworkedButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueMarble_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueMarble_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightRed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightWoodSquare_greenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightWoodSquare_greenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkWoodSquare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkWoodSquare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BishopButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BishopButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_kdt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_kdt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KnightButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KnightButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarbleStyleButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarbleStyleButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimedGameButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TimedGameButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainRedStyleButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainRedStyleButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkWoodSquare_greenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkWoodSquare_greenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightBrown_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightBrown_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlackButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainPurpleStyleButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainPurpleStyleButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QueenButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QueenButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_rlt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_rlt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainBrownStyleButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainBrownStyleButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteMarble_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteMarble_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EnterButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EnterButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_bdt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_bdt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MathsButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MathsButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CanvasTexture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CanvasTexture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdminLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdminLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rook2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rook21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_nlt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_nlt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_blt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_blt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QueenButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QueenButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewQuestionsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewQuestionsButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NetworkedButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NetworkedButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainPurpleStyleButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainPurpleStyleButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoMathsButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NoMathsButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_qdt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_qdt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoMathsButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NoMathsButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undoMoveButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undoMoveButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NotNetworkedButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NotNetworkedButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimedGameButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TimedGameButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_rdt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_rdt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_qlt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_qlt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightPurple_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightPurple_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueMarble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueMarble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BishopButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BishopButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_ndt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_ndt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightRed_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightRed_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkRed_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkRed_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RookButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RookButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainBlueStyleButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainBlueStyleButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StandardButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StandardButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddQuestionButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddQuestionButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlainBrownStyleButton_GreenBorder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlainBrownStyleButton_GreenBorder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteQuestionButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeleteQuestionButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlackButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chess_plt60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chess_plt60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="powerbutton_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\powerbutton_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="divideButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\divideButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
