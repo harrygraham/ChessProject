@@ -11,3 +11,7 @@ As a result, I learnt a lot about the power of OO systems.
 To USE:
 
 Clone / download this repo and go into the bin/ directories and run the test_chess executable found there. 
+
+Documentation:
+
+See my website for the full page documentation for this project, as it was submitted to the exam board.
